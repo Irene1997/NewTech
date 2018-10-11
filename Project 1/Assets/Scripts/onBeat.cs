@@ -21,16 +21,22 @@ public class onBeat : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (BeatManager._beatCountX8 == 0 && BeatManager._beatFull) {
+        if (BeatManager._beatCountX2 == 0 && BeatManager._beatFull) {
 
             beatSection++;
             _audioMixer.SetFloat("lowcutoff", Random.Range(500f, 10000f));
             _audioMixer.SetFloat("delayecho", Random.Range(500f, 10000f));
         }
-        if (/*beatSection == 1 &&*/ BeatManager._beatCountX8 == 0 && BeatManager._beatFull) {
-            //GameObject prefab = (GameObject)Instantiate(_prefab[0]);
-            //prefab.transform.position = _prefabPos[0].position;
-            GameObject prefab = Instantiate(_prefab[0], new Vector3(0, 1, 10), Quaternion.identity);
+        if (BeatManager._beatCountX2 == 0 && BeatManager._beatFull) {
+            GameObject prefab = Instantiate(_prefab[0], new Vector3(0, 2, 10), Quaternion.identity);
+        }
+
+        if (BeatManager._beatCountX4 == 0 && BeatManager._beatFull) {
+            GameObject prefab = Instantiate(_prefab[1], new Vector3(1, 2, 10), Quaternion.identity);
+        }
+
+        if (BeatManager._beatCountX8 == 0 && BeatManager._beatFull) {
+            GameObject prefab = Instantiate(_prefab[2], new Vector3(-1, 2, 10), Quaternion.identity);
         }
     }
 }
