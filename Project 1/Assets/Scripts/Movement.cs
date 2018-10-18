@@ -7,9 +7,11 @@ public class Movement : MonoBehaviour {
     public float speed;
     public int score = 0;
 	private bool playerCol = false;
+    public int side;
+
 	// Use this for initialization
-	void Start (/*float Speed*/) {
-        //speed = speed;
+	void Start () {
+        
 	}
 	
 	// Update is called once per frame
@@ -41,5 +43,14 @@ public class Movement : MonoBehaviour {
 			playerCol = true;
 		}
 	}
+
+    public int Side {
+        get {
+            return side;
+        }
+        set {
+            side = value;
+        }
+    }
 
 }

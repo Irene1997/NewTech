@@ -38,5 +38,18 @@ public class onBeat : MonoBehaviour
         if (BeatManager._beatCountX8 == 0 && BeatManager._beatFull) {
             GameObject prefab = Instantiate(_prefab[2], new Vector3(-1, 2, 10), Quaternion.identity);
         }
+
+        int random = Random.Range(0, 3);
+
+        InitBlock(BeatManager._beatCountX2, 0, random);
+        InitBlock(BeatManager._beatCountX4, 1, random);
+        InitBlock(BeatManager._beatCountX8, 2, random);
+    }
+
+    void InitBlock(int beatCount, int version, int random) {
+        if (beatCount == 0 && BeatManager._beatFull) {
+            GameObject prefab = Instantiate(_prefab[version], new Vector3(-1, 2, 10), Quaternion.identity);
+            prefab.GetComponent<Movement>().Side = random;
+        }
     }
 }
