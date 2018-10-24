@@ -33,7 +33,7 @@ In the first few weeks I mostly looked at the VR support for Unity. I made the S
 I also made sure that the different colored blocks Ami made were implemented and spawned. Lastly I implemented the menu at the beginning of the game. Together with my group, I tested the game various times, to test both design choices as well as funtional implementations. 
 
 Ami
-What did you do?
+On this project I worked mainly on the concept and visual part. On the concept phase I wanted to build an immersive setting for the player that feels monumental and artificial. We first started from the idea of a big wall of blocks that disintegrates block by block. After a few tests we decided that it’s more appealing to be surrounded 360* and for you to turn around following the blocks while hitting them. I worked on Illustrator for the buttons and theme and in Maya for the environment.
 
 Bart
 For the concept I was really thinking towards a rhythmic Virtual Reality experience. I discussed this with the team and after some brainstorming we ended up with a first concept about a rhythmic game in VR. I was responsible for the metronome script ‘on the beat’, a script that would change the background position (we tested this but it would make people nauseous).
