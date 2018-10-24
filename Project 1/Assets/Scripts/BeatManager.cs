@@ -16,7 +16,7 @@ public class BeatManager : MonoBehaviour {
     public static bool _beatFull, _beatD8;
     float _beatTimer, _beatTimerD8;
      int _beatCount, _beatCountD;
-    public static int _beatCountX2, _beatCountX4, _beatCountX8, _beatCountX16, _beatCountD2, _beatCountD4;
+	public static int _beatCountX2, _beatCountX4, _beatCountX8, _beatCountX16, _beatCountX32, _beatCountD2, _beatCountD4;
 
     // Use this for initialization
     void Start ()
@@ -43,6 +43,7 @@ public class BeatManager : MonoBehaviour {
         _beatCountX4 = _beatCount % 4;
         _beatCountX8 = _beatCount % 8;
         _beatCountX16 = _beatCount % 16;
+		_beatCountX32 = _beatCount % 32;
 
 
         //divided beat count

@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movingBackground.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\onBeat.cs">
     <Files>
-      <File FileName="Assets\Scripts\onBeat.cs" Line="31" Column="101" />
-      <File FileName="Assets\Scripts\Movement.cs" Line="20" Column="4" />
-      <File FileName="Assets\Scripts\BeatManager.cs" Line="44" Column="39" />
-      <File FileName="Assets\Scripts\movingBackground.cs" Line="15" Column="29" />
+      <File FileName="Assets\Scripts\onBeat.cs" Line="47" Column="32" />
+      <File FileName="Assets\Scripts\Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BeatManager.cs" Line="19" Column="91" />
+      <File FileName="Assets\Scripts\movingBackground.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ExplodeCube.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
