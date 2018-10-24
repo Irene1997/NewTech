@@ -29,7 +29,8 @@ Music
 We wanted to use techy sound for the game. We tried samples of Erick Kempnich - Zoar and other techno tracks. Finally we asked Fabian Hendrix (M&T) to create a track for us for this game based on the Erick Kempnich - Zoar example.
 
 Anne
-What did you do?
+In the first few weeks I mostly looked at the VR support for Unity. I made the Steam VR plugin work and fixed the user interaction for the VR setup. At first this was difficult as a few plugins that were advised on the internet didn't work, but in the end we used the Steam VR plugin for the interaction as well. After that I used Bart's OnBeat script to spawn the blocks, first at a fixed position and later moving along with the script Mick made. 
+I also made sure that the different colored blocks Ami made were implemented and spawned. Lastly I implemented the menu at the beginning of the game. Together with my group, I tested the game various times, to test both design choices as well as funtional implementations. 
 
 Ami
 What did you do?
